@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'circular-std-book';
+  src: url('./font/CircularStd-Book.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.footer .footer-social-media {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer .footer-copyright{
+  display: flex; 
+  justify-content: center;
+  font-family: circular-std-book, Arial, sans-serif;
+  font-size: 14px;
+  color: #BBBBBB; 
+  width: 100%;
+  margin-top: 20px;
+}

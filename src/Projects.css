@@ -1,0 +1,25 @@
+.projects {
+    width: 100%;
+}
+
+.projects .projects-first-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.projects .projects-first-row .carpool-app {
+    margin-right: 50px;
+    transition: 0.5s ease-in-out;
+}
+
+.projects .projects-second-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.projects .projects-second-row .nature-publication {
+    margin-right: 50px;
+    transition: 0.5s ease-in-out;
+}

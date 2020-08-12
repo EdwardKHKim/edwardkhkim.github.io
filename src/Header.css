@@ -1,0 +1,71 @@
+@font-face {	
+  font-family: 'circular-std-medium';	
+  src: url('./font/CircularStd-Medium.woff') format('woff');	
+  font-weight: 500;	
+  font-style: normal;	
+}	
+
+.header {	
+  width: 100%;	
+  margin-top: 100px;	
+  margin-bottom: 50px;	
+}	
+
+.header .header-line-one {	
+  width: 100%;	
+  display: flex;	
+}	
+
+.header .header-line-one .name {	
+  font-size: 25px;	
+  width: calc(100% - 350px);	
+  font-family: circular-std-medium, Arial, Helvetica, sans-serif;	
+  display: flex;	
+  align-items: center;	
+}	
+
+.header .header-line-one .navigation {	
+  width: 350px; 	
+  display: flex;	
+  font-size: 20px;	
+  font-family: circular-std-medium, Arial, Helvetica, sans-serif;	
+  align-items: center;	
+}	
+
+.header .header-line-one .navigation a {	
+  color: #BBBBBB;	
+  text-decoration: none;	
+  transition: 0.5s linear;	
+}	
+
+.header .header-line-one .navigation a:focus {	
+  color: #000000; 	
+}	
+
+.header .header-line-one .navigation a:hover {	
+  color: #000000; 	
+}	
+
+.header .header-line-one .navigation a:active {	
+  color: #000000; 	
+}	
+
+.header .header-line-one .navigation .projects-header, .articles-header {	
+  padding-right: 43px;	
+}	
+
+.header .header-line-two {	
+  width: 100%;	
+  display: flex;	
+}	
+
+.header .header-line-two .specialization {	
+  font-size: 20px;	
+  font-family: circular-std-medium, Arial, Helvetica, sans-serif;	
+  margin-top: 5px;	
+  width: calc(100% - 300px);	
+  display: flex;	
+  align-items: center;	
+  color: #05cf5b;	
+
+}
