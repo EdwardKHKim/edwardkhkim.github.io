@@ -33,7 +33,9 @@ class ArticlesHeader extends Component {
           </p>
 				</article>
 				<div className="articles-readme-resume">
-						View my resume <span className="articles-fi-arrow-right" ><FiArrowRight/></span>
+					<a clasName="articles-resume-text" href="https://docs.google.com/document/d/1ElnPykqWrC4-d4hJIGkn77-ji49F4v-svwNlJh9dSD4/edit?usp=sharing" target="_blank">
+					View my resume <span className="articles-fi-arrow-right" ><FiArrowRight/></span>
+					</a>
 				</div>
       </section>
     )

@@ -18,7 +18,7 @@ class Footer extends Component {
             <table>
               <tr>
                 <td width="45">
-                  <a href="http:///some-website.com/my-social-media-url" target="_blank">
+                  <a href="http://www.linkedin.com/in/kimedkh" target="_blank">
                     <img className="linkedin" src={this.state.linkedin} alt="Linkedin" width="30" height="30"/>
                   </a>
                 </td>
@@ -28,7 +28,7 @@ class Footer extends Component {
                   </a>
                 </td>
                 <td width="45">
-                  <a href="http:///some-website.com/my-social-media-url" target="_blank">
+                  <a href="http:///www.medium.com/@edwardkhkim" target="_blank">
                     <img className="medium" src={this.state.medium} alt="Medium" width="30" height="30"/>
                   </a>
                 </td>

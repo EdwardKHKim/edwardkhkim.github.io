@@ -1,5 +1,5 @@
 import React from 'react'; 
-import {Link} from 'react-router-dom'; 
+import {Link, Route} from 'react-router-dom'; 
 import './App.css';
 import './Thumbnail.css'
  
@@ -7,15 +7,15 @@ function Thumbnail(props) {
 
   return (
     <div className="project">
-      <Link to={props.link}>
+      <a href={props.link} target="_blank">
         <div className="project-image">
           <img src={props.image} alt="Project Image"/>
         </div>
         <div className="project-title">{props.title}</div>
         <div className="project-category">{props.category}</div>
-      </Link>
+      </a>
     </div>
   );
 }
 
-export default Thumbnail;
+export default Thumbnail; 

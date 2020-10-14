@@ -23,3 +23,14 @@
     margin-right: 50px;
     transition: 0.5s ease-in-out;
 }
+
+.projects .projects-third-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+}
+
+.projects .projects-third-row .covid-tracker {
+    margin-right: 50px;
+    transition: 0.5s ease-in-out;
+}
